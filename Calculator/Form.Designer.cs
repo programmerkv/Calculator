@@ -48,13 +48,18 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.txtScreen = new System.Windows.Forms.TextBox();
+            this.btnMemClear = new System.Windows.Forms.Button();
+            this.btnMemRecall = new System.Windows.Forms.Button();
+            this.btnMemSub = new System.Windows.Forms.Button();
+            this.btnMemStore = new System.Windows.Forms.Button();
+            this.btnMemAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSign
             // 
             this.btnSign.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSign.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSign.Location = new System.Drawing.Point(14, 400);
+            this.btnSign.Location = new System.Drawing.Point(14, 500);
             this.btnSign.Margin = new System.Windows.Forms.Padding(5);
             this.btnSign.Name = "btnSign";
             this.btnSign.Size = new System.Drawing.Size(80, 80);
@@ -66,7 +71,7 @@
             // 
             this.btnZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZero.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZero.Location = new System.Drawing.Point(104, 400);
+            this.btnZero.Location = new System.Drawing.Point(104, 500);
             this.btnZero.Margin = new System.Windows.Forms.Padding(5);
             this.btnZero.Name = "btnZero";
             this.btnZero.Size = new System.Drawing.Size(80, 80);
@@ -78,7 +83,7 @@
             // 
             this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDot.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDot.Location = new System.Drawing.Point(194, 400);
+            this.btnDot.Location = new System.Drawing.Point(194, 500);
             this.btnDot.Margin = new System.Windows.Forms.Padding(5);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(80, 80);
@@ -90,7 +95,7 @@
             // 
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(294, 400);
+            this.btnAdd.Location = new System.Drawing.Point(294, 500);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(5);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(80, 80);
@@ -102,7 +107,7 @@
             // 
             this.btnResult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnResult.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResult.Location = new System.Drawing.Point(384, 310);
+            this.btnResult.Location = new System.Drawing.Point(384, 410);
             this.btnResult.Margin = new System.Windows.Forms.Padding(5);
             this.btnResult.Name = "btnResult";
             this.btnResult.Size = new System.Drawing.Size(80, 170);
@@ -114,7 +119,7 @@
             // 
             this.btnThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThree.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThree.Location = new System.Drawing.Point(194, 310);
+            this.btnThree.Location = new System.Drawing.Point(194, 410);
             this.btnThree.Margin = new System.Windows.Forms.Padding(5);
             this.btnThree.Name = "btnThree";
             this.btnThree.Size = new System.Drawing.Size(80, 80);
@@ -126,7 +131,7 @@
             // 
             this.btnTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTwo.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTwo.Location = new System.Drawing.Point(104, 310);
+            this.btnTwo.Location = new System.Drawing.Point(104, 410);
             this.btnTwo.Margin = new System.Windows.Forms.Padding(5);
             this.btnTwo.Name = "btnTwo";
             this.btnTwo.Size = new System.Drawing.Size(80, 80);
@@ -138,7 +143,7 @@
             // 
             this.btnEight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEight.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEight.Location = new System.Drawing.Point(104, 130);
+            this.btnEight.Location = new System.Drawing.Point(104, 230);
             this.btnEight.Margin = new System.Windows.Forms.Padding(5);
             this.btnEight.Name = "btnEight";
             this.btnEight.Size = new System.Drawing.Size(80, 80);
@@ -150,7 +155,7 @@
             // 
             this.btnSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSix.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSix.Location = new System.Drawing.Point(194, 220);
+            this.btnSix.Location = new System.Drawing.Point(194, 320);
             this.btnSix.Margin = new System.Windows.Forms.Padding(5);
             this.btnSix.Name = "btnSix";
             this.btnSix.Size = new System.Drawing.Size(80, 80);
@@ -162,7 +167,7 @@
             // 
             this.btnFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFive.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFive.Location = new System.Drawing.Point(104, 220);
+            this.btnFive.Location = new System.Drawing.Point(104, 320);
             this.btnFive.Margin = new System.Windows.Forms.Padding(5);
             this.btnFive.Name = "btnFive";
             this.btnFive.Size = new System.Drawing.Size(80, 80);
@@ -174,7 +179,7 @@
             // 
             this.btnOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOne.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOne.Location = new System.Drawing.Point(14, 310);
+            this.btnOne.Location = new System.Drawing.Point(14, 410);
             this.btnOne.Margin = new System.Windows.Forms.Padding(5);
             this.btnOne.Name = "btnOne";
             this.btnOne.Size = new System.Drawing.Size(80, 80);
@@ -186,7 +191,7 @@
             // 
             this.btnNine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNine.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNine.Location = new System.Drawing.Point(194, 130);
+            this.btnNine.Location = new System.Drawing.Point(194, 230);
             this.btnNine.Margin = new System.Windows.Forms.Padding(5);
             this.btnNine.Name = "btnNine";
             this.btnNine.Size = new System.Drawing.Size(80, 80);
@@ -198,7 +203,7 @@
             // 
             this.btnSeven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeven.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeven.Location = new System.Drawing.Point(13, 130);
+            this.btnSeven.Location = new System.Drawing.Point(13, 230);
             this.btnSeven.Margin = new System.Windows.Forms.Padding(5);
             this.btnSeven.Name = "btnSeven";
             this.btnSeven.Size = new System.Drawing.Size(80, 80);
@@ -210,7 +215,7 @@
             // 
             this.btnFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFour.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFour.Location = new System.Drawing.Point(13, 220);
+            this.btnFour.Location = new System.Drawing.Point(13, 320);
             this.btnFour.Margin = new System.Windows.Forms.Padding(5);
             this.btnFour.Name = "btnFour";
             this.btnFour.Size = new System.Drawing.Size(80, 80);
@@ -222,7 +227,7 @@
             // 
             this.btnSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSub.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSub.Location = new System.Drawing.Point(294, 310);
+            this.btnSub.Location = new System.Drawing.Point(294, 410);
             this.btnSub.Margin = new System.Windows.Forms.Padding(5);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(80, 80);
@@ -234,7 +239,7 @@
             // 
             this.btnMult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMult.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMult.Location = new System.Drawing.Point(294, 220);
+            this.btnMult.Location = new System.Drawing.Point(294, 320);
             this.btnMult.Margin = new System.Windows.Forms.Padding(5);
             this.btnMult.Name = "btnMult";
             this.btnMult.Size = new System.Drawing.Size(80, 80);
@@ -246,7 +251,7 @@
             // 
             this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDiv.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDiv.Location = new System.Drawing.Point(294, 130);
+            this.btnDiv.Location = new System.Drawing.Point(294, 230);
             this.btnDiv.Margin = new System.Windows.Forms.Padding(5);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(80, 80);
@@ -258,7 +263,7 @@
             // 
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(384, 220);
+            this.btnDelete.Location = new System.Drawing.Point(384, 320);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(5);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(80, 80);
@@ -270,7 +275,7 @@
             // 
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(384, 130);
+            this.btnClear.Location = new System.Drawing.Point(384, 230);
             this.btnClear.Margin = new System.Windows.Forms.Padding(5);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(80, 80);
@@ -290,11 +295,76 @@
             this.txtScreen.Text = "-1234567890";
             this.txtScreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // btnMemClear
+            // 
+            this.btnMemClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMemClear.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMemClear.Location = new System.Drawing.Point(384, 140);
+            this.btnMemClear.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMemClear.Name = "btnMemClear";
+            this.btnMemClear.Size = new System.Drawing.Size(80, 80);
+            this.btnMemClear.TabIndex = 24;
+            this.btnMemClear.Text = "MC";
+            this.btnMemClear.UseVisualStyleBackColor = true;
+            // 
+            // btnMemRecall
+            // 
+            this.btnMemRecall.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMemRecall.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMemRecall.Location = new System.Drawing.Point(294, 140);
+            this.btnMemRecall.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMemRecall.Name = "btnMemRecall";
+            this.btnMemRecall.Size = new System.Drawing.Size(80, 80);
+            this.btnMemRecall.TabIndex = 23;
+            this.btnMemRecall.Text = "MR";
+            this.btnMemRecall.UseVisualStyleBackColor = true;
+            // 
+            // btnMemSub
+            // 
+            this.btnMemSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMemSub.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMemSub.Location = new System.Drawing.Point(194, 140);
+            this.btnMemSub.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMemSub.Name = "btnMemSub";
+            this.btnMemSub.Size = new System.Drawing.Size(80, 80);
+            this.btnMemSub.TabIndex = 22;
+            this.btnMemSub.Text = "M-";
+            this.btnMemSub.UseVisualStyleBackColor = true;
+            // 
+            // btnMemStore
+            // 
+            this.btnMemStore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMemStore.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMemStore.Location = new System.Drawing.Point(13, 140);
+            this.btnMemStore.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMemStore.Name = "btnMemStore";
+            this.btnMemStore.Size = new System.Drawing.Size(80, 80);
+            this.btnMemStore.TabIndex = 21;
+            this.btnMemStore.Text = "MS";
+            this.btnMemStore.UseVisualStyleBackColor = true;
+            // 
+            // btnMemAdd
+            // 
+            this.btnMemAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMemAdd.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMemAdd.Location = new System.Drawing.Point(104, 140);
+            this.btnMemAdd.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMemAdd.Name = "btnMemAdd";
+            this.btnMemAdd.Size = new System.Drawing.Size(80, 80);
+            this.btnMemAdd.TabIndex = 20;
+            this.btnMemAdd.Text = "M+";
+            this.btnMemAdd.UseVisualStyleBackColor = true;
+            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(478, 494);
+            this.ClientSize = new System.Drawing.Size(478, 594);
+            this.Controls.Add(this.btnMemClear);
+            this.Controls.Add(this.btnMemRecall);
+            this.Controls.Add(this.btnMemSub);
+            this.Controls.Add(this.btnMemStore);
+            this.Controls.Add(this.btnMemAdd);
             this.Controls.Add(this.txtScreen);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
@@ -344,6 +414,11 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtScreen;
+        private System.Windows.Forms.Button btnMemClear;
+        private System.Windows.Forms.Button btnMemRecall;
+        private System.Windows.Forms.Button btnMemSub;
+        private System.Windows.Forms.Button btnMemStore;
+        private System.Windows.Forms.Button btnMemAdd;
     }
 }
 
